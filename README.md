@@ -9,12 +9,11 @@
 ### The cause I found (case 1)
 You can checkout `test/case-1` branch or reproduce below steps.
 
-1. Then, remove `/src/app/(group)/@mobile` folder.
+1. Remove `/src/app/(group)/@mobile` folder.
 2. Now, `layout.module.css` is working. (The black thick border is displayed.)
 
 ### The cause I found (case 2)
 You can checkout `test/case-2` branch or reproduce below steps.
 
-1. Undo remove `/src/app/(group)/@mobile` folder.
-2. Then, edit `/src/app/(group)/layout.tsx` pc to mobile
-3. Now, `layout.module.css` is working. (The red thick border is displayed.)
+1. Edit `/src/app/(group)/layout.tsx` pc to mobile
+2. Now, `layout.module.css` is working. (The red thick border is displayed.)
