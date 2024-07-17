@@ -5,6 +5,6 @@ interface LayoutProps {
   mobile: ReactNode;
 }
 
-export default function Layout({pc}: LayoutProps) {
-  return pc;
+export default function Layout({mobile}: LayoutProps) {
+  return mobile;
 }
